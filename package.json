@@ -3,9 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "plop",
+    "generator",
+    "JSON"
+  ],
+  "homepage": "https://github.com/w3nda/plop-pack-package-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3nda/plop-pack-package-json"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "w3nda",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
 }
